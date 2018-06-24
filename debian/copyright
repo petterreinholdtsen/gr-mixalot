@@ -1,0 +1,370 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: package
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitignore
+           README.md
+           apps/tester
+           cmake/Modules/FindCppUnit.cmake
+           cmake/Modules/FindGnuradioCore.cmake
+           cmake/Modules/FindGruel.cmake
+           cmake/Modules/FindITPP.cmake
+           cmake/cmake_uninstall.cmake.in
+           debian/control
+           debian/gbp.conf
+           debian/patches/README
+           debian/patches/series
+           debian/rules
+           debian/source/format
+           debian/watch
+           docs/README.mixalot
+           docs/doxygen/Doxyfile.in
+           docs/doxygen/Doxyfile.swig_doc.in
+           docs/doxygen/doxyxml/generated/__init__.py
+           docs/doxygen/doxyxml/generated/compound.py
+           docs/doxygen/doxyxml/generated/compoundsuper.py
+           docs/doxygen/doxyxml/generated/index.py
+           docs/doxygen/doxyxml/generated/indexsuper.py
+           docs/doxygen/other/group_defs.dox
+           docs/doxygen/other/main_page.dox
+           grc/.gitignore
+           include/mixalot/pocencode.h
+           lib/pocencode_impl.cc
+           lib/pocencode_impl.h
+           lib/utils.cc
+           lib/utils.h
+           swig/mixalot_swig.i
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     apps/CMakeLists.txt
+           cmake/Modules/GrMiscUtils.cmake
+           cmake/Modules/GrPlatform.cmake
+           cmake/Modules/GrPython.cmake
+           cmake/Modules/GrSwig.cmake
+           cmake/Modules/GrTest.cmake
+           docs/doxygen/doxyxml/__init__.py
+           docs/doxygen/doxyxml/base.py
+           docs/doxygen/doxyxml/doxyindex.py
+           docs/doxygen/doxyxml/text.py
+           docs/doxygen/swig_doc.py
+           grc/CMakeLists.txt
+           include/mixalot/api.h
+           lib/qa_mixalot.h
+           lib/test_mixalot.cc
+Copyright: 2010-2012 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     swig/CMakeLists.txt
+Copyright: 2011 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Include swig generation macros
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     lib/qa_mixalot.cc
+Copyright: 2012 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ This class gathers together all the test cases for the gr-filter
+ directory into a single test suite.  As you create new test cases,
+ add them here.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     lib/CMakeLists.txt
+Copyright: 2011-2012 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Setup library
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     CMakeLists.txt
+Copyright: 2011-2012 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Project setup
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     debian/compat
+Copyright: : 2010-2012 Free Software Foundation, Inc. License:   GPL-3.0+
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+ .
+ Files:     swig/CMakeLists.txt
+ Copyright: 2011 Free Software Foundation, Inc.
+ License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Include swig generation macros
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     python/CMakeLists.txt
+Copyright: 2011 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Include python install macros
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     include/mixalot/CMakeLists.txt
+Copyright: 2011-2012 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Install public header files
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     docs/doxygen/CMakeLists.txt
+Copyright: 2011 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Create the doxygen configuration file
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     docs/CMakeLists.txt
+Copyright: 2011 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This file is part of GNU Radio
+ .
+ GNU Radio is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ GNU Radio is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with GNU Radio; see the file COPYING.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street,
+ Boston, MA 02110-1301, USA.
+ .
+ Setup dependencies
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     python/__init__.py
+Copyright: 2008-2009 Free Software Foundation, Inc.
+License:   GPL-3.0+
+ This application is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ This application is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ The presence of this file turns this directory into a Python package
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     cmake/Modules/CMakeParseArgumentsCopy.cmake
+Copyright: 2010 Alexander Neundorf <neundorf@kde.org>
+License:   __UNKNOWN__
+ Distributed under the OSI-approved BSD License (the "License");
+ see accompanying file Copyright.txt for details.
+ .
+ This software is distributed WITHOUT ANY WARRANTY; without even the
+ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See the License for more information.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         grc/mixalot_pocencode.xml
+#         grc/pocsagtx_hackrf.grc
+#         grc/pocsagtx.grc
+
+
